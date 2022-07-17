@@ -1,4 +1,4 @@
-FROM ruby:2.7
+FROM ruby: 3.1.2
 
 RUN apt-get update -qq && apt-get install -y postgresql-client
 # throw errors if Gemfile has been modified since Gemfile.lock
